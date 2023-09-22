@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhinoToolkit", "RhinoToolkit\RhinoToolkit.csproj", "{617233C7-AED9-46F9-92B7-31BA9827D1FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{13F468FA-A707-4E47-ABA4-421087173D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRhinoInsideExample", "WpfRhinoInsideExample\WpfRhinoInsideExample.csproj", "{1B721AFB-C022-451F-BA84-6986FD02EEFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhinoComputeConsoleExample", "RhinoComputeConsoleExample\RhinoComputeConsoleExample.csproj", "{8175E7FB-DDAC-425E-AB76-737FDFA8E598}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{617233C7-AED9-46F9-92B7-31BA9827D1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617233C7-AED9-46F9-92B7-31BA9827D1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617233C7-AED9-46F9-92B7-31BA9827D1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617233C7-AED9-46F9-92B7-31BA9827D1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B721AFB-C022-451F-BA84-6986FD02EEFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B721AFB-C022-451F-BA84-6986FD02EEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B721AFB-C022-451F-BA84-6986FD02EEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B721AFB-C022-451F-BA84-6986FD02EEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8175E7FB-DDAC-425E-AB76-737FDFA8E598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8175E7FB-DDAC-425E-AB76-737FDFA8E598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8175E7FB-DDAC-425E-AB76-737FDFA8E598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8175E7FB-DDAC-425E-AB76-737FDFA8E598}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B721AFB-C022-451F-BA84-6986FD02EEFF} = {13F468FA-A707-4E47-ABA4-421087173D02}
+		{8175E7FB-DDAC-425E-AB76-737FDFA8E598} = {13F468FA-A707-4E47-ABA4-421087173D02}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44EC8834-2A12-4769-B3F1-BEE102683548}
+	EndGlobalSection
+EndGlobal

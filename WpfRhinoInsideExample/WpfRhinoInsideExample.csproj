@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <OutputType>WinExe</OutputType>
+	  <TargetFramework>net48</TargetFramework>
+	  <RootNamespace>WpfRhinoInsideExample</RootNamespace>
+	  <LangVersion>8.0</LangVersion>
+	  <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Test.gh" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Test.gh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RhinoToolkit\RhinoToolkit.csproj" />
+  </ItemGroup>
+
+</Project>
